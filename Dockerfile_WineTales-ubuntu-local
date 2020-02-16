@@ -5,8 +5,8 @@ MAINTAINER Isaac Chang <dimang777@gmail.com>
 RUN apt-get update -y && \
     apt-get install -y python3-pip python3-dev
 
-COPY ./WineTales-docker-local/requirements.txt /requirements.txt
-COPY ./Dockerfile_WineTales-docker-local /Dockerfile
+COPY ./WineTales-docker-ubuntu-local/requirements.txt /requirements.txt
+COPY ./Dockerfile_WineTales-ubuntu-local /Dockerfile
 
 WORKDIR /
 
